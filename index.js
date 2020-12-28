@@ -123,7 +123,10 @@ bot.on('message', msg=>{
 	if(msg.content.includes ("komrade") ){
 		msg.reply('<:emoji_name:790919279570190338>')
 	}
-	if(msg.content.includes ("aterwelon") ){
+	if(msg.content === ("materwelon") ){
+		msg.reply('https://youtu.be/jpON1tm1zmE')
+	}
+	if(msg.content === ("Materwelon") ){
 		msg.reply('https://youtu.be/jpON1tm1zmE')
 	}
 	if(msg.author.id === '453322299144273931'){
