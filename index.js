@@ -148,7 +148,7 @@ bot.on('message', msg=>{
 })
 
 bot.on('ready', () => {
-	 antispam(client, {
+	 antispam(bot, {
 		  limitUntilWarn: Integer, // The amount of messages allowed to send within the interval(time) before getting a warn.
 		  limitUntilMuted: Integer, // The amount of messages allowed to send within the interval(time) before getting a muted.
 		  interval: 2000, // The interval(time) where the messages are sent. Practically if member X sent 5+ messages within 2 seconds, he get muted. (1000 milliseconds = 1 second, 2000 milliseconds = 2 seconds etc etc)
@@ -164,6 +164,12 @@ bot.on('ready', () => {
 		});
 
 	});		
+
+	bot.on('message', msg => {
+		bot.emit('checkMessage', msg);
+
+
+	})		
 
 
 
