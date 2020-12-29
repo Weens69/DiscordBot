@@ -146,18 +146,19 @@ bot.on('message', msg=>{
 		msg.react('🇾')
 	}
 	antispam(client, {
-        limitUntilWarn: 3,
-        limitUntilMuted: 5,
+        limitUntilWarn: Integer,
+        limitUntilMuted: Integer,
         interval: 2000,
-        warningMessage: "",
-        muteMessage: "",
-        maxDuplicatesWarning: 7,
-        maxDuplicatesMute: 10,
-        ignoredRoles: [],
-        ignoredMembers: [],
-		mutedRole:"",
+        warningMessage: String,Minimum 5 Characters,
+        muteMessage: String, Minimum 5 Characters,
+        maxDuplicatesWarning:  Integer,
+        maxDuplicatesMute:  Integer,
+        ignoredRoles: Array,
+        ignoredMembers: Array,
+		mutedRole:"muted",
 		timeMuted: 1000*600,
-		logChannel: ""
+		logChannel: String
+
       });
 })
 
