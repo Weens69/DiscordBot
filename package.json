@@ -9,6 +9,7 @@
   "author": "Bernard",
   "license": "ISC",
   "dependencies": {
+    "better-discord-antispam": "^2.0.0",
     "discord.js": "^12.5.1"
   }
 }

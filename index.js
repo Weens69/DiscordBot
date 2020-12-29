@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const antispam = require('better-discord-antispam');
 const bot = new Discord.Client();
 
 
@@ -144,13 +145,17 @@ bot.on('message', msg=>{
 		msg.react('🇦')
 		msg.react('🇾')
 	}
-
-
-
-
-
-
-
+	antispam(client, {
+        limitUntilWarn: 3,
+        limitUntilMuted: 5,
+        interval: 2000,
+		timeMuted: 1000*600,
+      });
 })
+
+
+
+
+
 
 bot.login(process.env.token);
