@@ -136,10 +136,13 @@ bot.on('message', msg=>{
 		msg.react('<:pepeLaugh:790919170169634857>');
 		msg.react('👉')
 		msg.react('🥚')
-		msg.react(':regional_indicator_g:')
-		msg.react(':regional_indicator_a:')
-		msg.react(':regional_indicator_y:')
 	}
+	if(msg.author.id === '758400928591118378'){
+		msg.react('🇬');
+		msg.react('🇦')
+		msg.react('🇾')
+	}
+
 
 
 
