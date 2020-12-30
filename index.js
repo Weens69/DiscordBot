@@ -129,6 +129,9 @@ bot.on('message', msg=>{
 	if(msg.content === ("Materwelon") ){
 		msg.reply('https://youtu.be/jpON1tm1zmE')
 	}
+	if(msg.content === ("🐀") ){
+		msg.reply('https://cdn.discordapp.com/attachments/758307151101427722/793939617018937364/image0.jpg')
+	}
 	if(msg.author.id === '453322299144273931'){
 		msg.react('🖕');
 	}
