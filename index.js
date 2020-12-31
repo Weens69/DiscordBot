@@ -129,6 +129,12 @@ bot.on('message', msg=>{
 	if(msg.content === ("Materwelon") ){
 		msg.reply('https://youtu.be/jpON1tm1zmE')
 	}
+	if(msg.content === ("Oi") ){
+		msg.reply('https://twitter.com/i/status/1344288483616169984')
+	}
+	if(msg.content === ("oi") ){
+		msg.reply('https://twitter.com/i/status/1344288483616169984')
+	}
 	if(msg.content === ("rat") ){
 		msg.reply('https://cdn.discordapp.com/attachments/758307151101427722/793939617018937364/image0.jpg')
 	}
