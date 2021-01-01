@@ -146,7 +146,7 @@ bot.on('message', msg=>{
 		msg.reply('https://cdn.discordapp.com/attachments/758307151101427722/793939617018937364/image0.jpg')
 	}
 	if(msg.author.id === '453322299144273931'){
-		msg.reply('Mr. Connor is worth more than $17000!')
+		msg.reply('Mr. Connor is worth more than $17000! In fact he pulled this csgo knife https://i.imgur.com/kC8BPqv.png The rarest float on the market is a 0.02 and its worth $7k. Whos knows how much this knife is. Mr. Yapa will keep you updated')
 	}
 	if(msg.author.id === '783932326366150668'){
 		msg.react('<:pepeLaugh:790919170169634857>');
