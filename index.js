@@ -153,7 +153,8 @@ bot.on('message', msg=>{
 		msg.react('<:pepeLaugh:790919170169634857>');
 		msg.react('👉')
 		msg.react('👴');
-		msg.react('👨‍🦼')		
+		msg.react('👨‍🦼')
+		msg.react('<:emoji_name:790918976829128724>')		
 	}
 })
 
