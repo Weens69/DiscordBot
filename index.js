@@ -138,6 +138,10 @@ bot.on('message', msg=>{
 	if(msg.content === ("rat") ){
 		msg.reply('https://cdn.discordapp.com/attachments/758307151101427722/793939617018937364/image0.jpg')
 	}
+	if(msg.content === ("dustin") ){
+		msg.react('👴')
+		msg.react('👨‍🦼')
+	}
 	if(msg.content === ("Rat") ){
 		msg.reply('https://cdn.discordapp.com/attachments/758307151101427722/793939617018937364/image0.jpg')
 	}
