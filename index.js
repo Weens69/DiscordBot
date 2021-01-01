@@ -149,6 +149,9 @@ bot.on('message', msg=>{
 		msg.reply('https://i.imgur.com/kC8BPqv.png')
 		msg.react('💰')
 	}
+	if(msg.author.id === '694028180369047623'){
+		msg.react('👑')
+	}
 	if(msg.author.id === '783932326366150668'){
 		msg.react('<:pepeLaugh:790919170169634857>');
 		msg.react('👉')
