@@ -156,11 +156,7 @@ bot.on('message', msg=>{
 		msg.reply('This you? https://i.imgur.com/fRhRTlB.png')
 	}
 	if(msg.author.id === '758400928591118378'){
-		msg.react('<:pepeLaugh:790919170169634857>');
-		msg.react('👉')
-		msg.react('👴');
-		msg.react('👨‍🦼')
-		msg.react('<:emoji_name:790918976829128724>')		
+		msg.react('👴');		
 	}
 })
 
