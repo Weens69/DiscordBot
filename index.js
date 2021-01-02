@@ -152,7 +152,7 @@ bot.on('message', msg=>{
 		msg.react('👑')
 	}
 	if(msg.author.id === '783932326366150668'){
-		msg.reply('💩')
+		msg.react('💩')
 	}
 	if(msg.author.id === '758400928591118378'){
 		msg.react('👴');		
