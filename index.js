@@ -153,9 +153,7 @@ bot.on('message', msg=>{
 		msg.react('👑')
 	}
 	if(msg.author.id === '783932326366150668'){
-		msg.react('<:pepeLaugh:790919170169634857>');
-		msg.react('👉')
-		msg.react('💩')
+		msg.reply('This you? https://i.imgur.com/fRhRTlB.png')
 	}
 	if(msg.author.id === '758400928591118378'){
 		msg.react('<:pepeLaugh:790919170169634857>');
