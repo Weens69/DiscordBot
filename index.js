@@ -146,17 +146,19 @@ bot.on('message', msg=>{
 		msg.reply('https://cdn.discordapp.com/attachments/758307151101427722/793939617018937364/image0.jpg')
 	}
 	if(msg.author.id === '453322299144273931'){
-		msg.reply('https://i.imgur.com/kC8BPqv.png')
 		msg.react('💰')
 	}
 	if(msg.author.id === '694028180369047623'){
 		msg.react('👑')
 	}
 	if(msg.author.id === '783932326366150668'){
-		msg.reply('This you? https://i.imgur.com/fRhRTlB.png')
+		msg.reply('💩')
 	}
 	if(msg.author.id === '758400928591118378'){
 		msg.react('👴');		
+	}
+	if(msg.author.id === '310572543327076362'){
+		msg.react('🔇');		
 	}
 })
 
