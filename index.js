@@ -148,6 +148,9 @@ bot.on('message', msg=>{
 	if(msg.content === ("Rat") ){
 		msg.reply('https://cdn.discordapp.com/attachments/758307151101427722/793939617018937364/image0.jpg')
 	}
+	if(msg.content === ("whos in the water") ){
+		msg.reply('https://clips.twitch.tv/DepressedAmericanDoveGingerPower')
+	}
 	if(msg.author.id === '453322299144273931'){
 		msg.react('💰')
 	}
