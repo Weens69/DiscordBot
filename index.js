@@ -148,6 +148,9 @@ bot.on('message', msg=>{
 	if(msg.content === ("Rat") ){
 		msg.reply('https://cdn.discordapp.com/attachments/758307151101427722/793939617018937364/image0.jpg')
 	}
+	if(msg.content === ("dallas phone") ){
+		msg.reply('https://www.youtube.com/watch?v=FWb1pnSGHZI&feature=youtu.be')
+	}
 	if(msg.content === ("whos in the water") ){
 		msg.reply('https://www.youtube.com/watch?v=x9_2GC3nxqI&feature=youtu.be')
 	}
