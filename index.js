@@ -151,6 +151,11 @@ bot.on('message', msg=>{
 	if(msg.content === ("dallas phone") ){
 		msg.reply('https://www.youtube.com/watch?v=FWb1pnSGHZI&feature=youtu.be')
 	}
+	if(msg.content === ("whos joe") ){
+		msg.reply('joe nigger!')
+		msg.reply('oops')
+		msg.reply('joe nigga!')
+	}
 	if(msg.content === ("whos in the water") ){
 		msg.reply('https://www.youtube.com/watch?v=x9_2GC3nxqI&feature=youtu.be')
 	}
