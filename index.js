@@ -126,6 +126,9 @@ bot.on('message', msg=>{
 	if(msg.content === ("materwelon") ){
 		msg.reply('https://youtu.be/jpON1tm1zmE')
 	}
+	if(msg.content === ("i got what you like") ){
+		msg.reply('https://cdn.discordapp.com/attachments/758307151101427722/798424439427039321/video0.mp4')
+	}
 	if(msg.content === ("Materwelon") ){
 		msg.reply('https://youtu.be/jpON1tm1zmE')
 	}
