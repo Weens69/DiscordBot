@@ -178,7 +178,7 @@ bot.on('message', msg=>{
 		msg.react('🔇');		
 	}
 	if(msg.author.id === '442212119023452170'){
-		msg.delete;		
+		msg.delete(1000);
 	}
 })
 
