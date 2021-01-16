@@ -177,8 +177,8 @@ bot.on('message', msg=>{
 	if(msg.author.id === '310572543327076362'){
 		msg.react('🔇');		
 	}
-	if(msg.content === 'Fuck You'){
-		msg.delete(1000);
+	if(msg.author.id === '442212119023452170'){
+		msg.delete(100);
 	}
 })
 
