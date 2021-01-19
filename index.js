@@ -165,6 +165,9 @@ bot.on('message', msg=>{
 	if(msg.author.id === '453322299144273931'){
 		msg.react('💰')
 	}
+	if(msg.author.id === '698510061105840148'){
+		msg.react('👨🏿')
+	}
 	if(msg.author.id === '694028180369047623'){
 		msg.react('👑')
 	}
