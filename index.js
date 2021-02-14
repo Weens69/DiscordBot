@@ -67,10 +67,10 @@ bot.on('message', msg=>{
 		msg.reply('<:emoji_name:790919183743451166>')
 	}
 	if(msg.content.includes ("Laugh") ){
-		msg.reply('<:emoji_name:790919170169634857>')
+		msg.reply('<:emoji_name:798479003442479104>')
 	}
 	if(msg.content.includes ("laugh") ){
-		msg.reply('<:emoji_name:790919170169634857>')
+		msg.reply('<:emoji_name:798479003442479104>')
 	}
 	if(msg.content === ("pepega") ){
 		msg.reply('<:emoji_name:790918976829128724>')
